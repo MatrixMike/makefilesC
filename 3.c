@@ -2,6 +2,6 @@
 #include "b.h"
 #include "c.h"
 
-void function_three() {
+void function_three()
+{
 }
-
