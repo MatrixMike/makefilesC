@@ -19,7 +19,7 @@ CFLAGS=-g -Wall -ansi
 MYLIB=mylib.a
 
 myapp: main.o $(MYLIB)
-	$(CC) -o myapp main.o $(MYLIB)
+	$(CC) -o myapp main.o $(MYLIB) -U
 
 
 $(MYLIB): $(MYLIB)(2.o) $(MYLIB)(3.o)
